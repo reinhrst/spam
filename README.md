@@ -14,9 +14,9 @@ All three depend on `spam/lib/libspam.py`.
 
 The way to run the examples, is to first install the project in your `venv`, and then run:
 
-- `python -m spam.quickscripts.simple_spam`
-- `python -m spam.quickscripts.some_spam 10`
-- `python -m spam.longscripts.continuous_spam 100`
+- `simple_spam`
+- `some_spam 10`
+- `continuous_spam 100`
 
 
 [1]: https://blog.claude.nl/posts/how-to-structure-a-python-project-with-multiple-entry-points/

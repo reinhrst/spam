@@ -20,5 +20,5 @@ def continuous_spam_run(
         print(get_spam())
 
 
-if __name__ == "__main__":
+def main():
     clargs.create_parser_and_run(continuous_spam_run)

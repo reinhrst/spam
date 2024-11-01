@@ -21,5 +21,5 @@ def some_spam_run(
             print(lib.get_spam())
 
 
-if __name__ == "__main__":
+def main():
     clargs.create_parser_and_run(some_spam_run)

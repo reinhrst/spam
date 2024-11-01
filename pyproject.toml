@@ -4,3 +4,8 @@ version = "0.1.0"
 dependencies = [
     "clargs",
 ]
+
+[project.scripts]
+simple_spam = "spam.quickscripts.simple_spam:main"
+some_spam = "spam.quickscripts.some_spam:main"
+continuous_spam = "spam.longscripts.continuous_spam:main"
