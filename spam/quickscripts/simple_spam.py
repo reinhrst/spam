@@ -1,0 +1,4 @@
+from .. import lib
+
+if __name__ == "__main__":
+    print(lib.get_spam())
